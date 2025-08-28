@@ -23,6 +23,7 @@ const ResumeForm: React.FC<Props> = ({ setResult }) => {
   };
 
   return (
+    <>
     <form
       onSubmit={handleSubmit}
       className="max-w-2xl mx-auto bg-white p-6 rounded-2xl shadow-md"
@@ -56,6 +57,7 @@ const ResumeForm: React.FC<Props> = ({ setResult }) => {
         Match Resume
       </button>
     </form>
+    </>
   );
 };
 

@@ -14,7 +14,7 @@ def match_resume_endpoint(request: ResumeRequest):
     result = match_resume(request.job_description, request.resume_text)
     return result
 
-# For testing locally
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+# # For testing locally
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=8000)

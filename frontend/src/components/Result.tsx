@@ -10,6 +10,7 @@ interface Props {
 
 const Result: React.FC<Props> = ({ result }) => {
   return (
+    <>
     <div className="max-w-2xl mx-auto mt-6 bg-white p-6 rounded-2xl shadow-md">
       <h2 className="text-2xl font-bold mb-4">Results</h2>
 
@@ -32,6 +33,7 @@ const Result: React.FC<Props> = ({ result }) => {
         />
       </div>
     </div>
+    </>
   );
 };
 
